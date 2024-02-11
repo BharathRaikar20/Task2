@@ -1,0 +1,357 @@
+body 
+{
+    margin:0.4px;
+    height:1500px;
+    background-color:rgb(244, 244, 244);
+}
+.nav-bar
+{
+    background: linear-gradient(130.63deg, #0003AA 24.11%, #5B0369 100.86%);
+    height:10vh;
+    width:100%;
+
+
+}
+.nav-bar img
+{
+    margin:22.5px;
+
+}
+ul
+{
+    justify-content: space-between;
+    width:880px;
+    color:white;
+    
+}
+#nav-texts ul
+{   
+   
+    display: flex;
+    list-style:none;
+    margin-left:550px;
+    position: relative;
+    top:-65px;
+  
+}
+#nav-texts ul button
+{
+    padding:7px;
+    width:90px;
+    border:1px solid white;
+    color:white;
+    background-color:transparent;
+    position: relative;
+    top:-5.8px;
+    border-radius: 10px;
+
+}
+#nav-texts ul button:hover
+{
+    background-color:#0c0fbc90;
+}
+.first-part
+{
+    
+    height:470px;
+    margin-top:0px;
+    background: linear-gradient(97.82deg, #0003AA 14.08%, #5B0369 134.44%);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#left-contents 
+{
+    
+    
+    font-weight:550;
+    font-size:30px;
+    line-height: 60px;
+    font-family:"Cairo";
+    color:rgb(255,255,255,1);
+    position: absolute;
+    top:110px;
+    left:200px;
+    width:560px;
+
+}
+#left-contents ul
+{
+    list-style:none;
+    position: absolute;
+    font-size: 16px;
+    font-family: "Cairo";
+    font-weight: 500;
+   color: rgb(152, 142, 142);
+   display:inline-flex;
+   width:250px;
+   transform:rotate(-90deg);
+   top:150px;
+   right:520px;
+
+
+}
+
+#para
+{
+    width:610px;
+    font-size:20px;
+    font-weight:100;
+    line-height: 30px;
+}
+#donut-image 
+{
+    position: absolute;
+    left:20cm;
+    top:-20px;
+}
+
+.second-part #para1
+{
+    color:black;
+    font-family: "Cairo";
+    font-size: 30px;
+    font-weight: 900;
+    line-height:50px;
+    position: absolute;
+    width:445px;
+    left:200px;
+
+}
+.second-part #para2
+{
+    font-family:"Cairo";
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 30px;
+    width:450px;
+    position:absolute;
+    left:200px;
+    top:18.9cm;
+}
+#second-part-right-contents ul
+{
+    list-style:none;
+    line-height:100px;
+    position: absolute;
+    left:850px;
+    width:200px;
+    top:15cm;
+}
+.second-part-right-contents-info ul
+{
+    display: inline-block;
+    color:black;
+    
+}
+
+#info1,#info3,#info5,#info7
+{
+    font-family:"Cairo";
+    font-size: 18px;
+    position:relative;
+    left:950px;
+    top:40px;
+}
+#info2 p,#info4 p,#info6 p,#info8 p 
+{
+    font-family:"Cairo";
+    font-size: 15px;
+    position:relative;
+    left:950px;
+    top:30px;
+    width:500px;
+}
+
+.second-part-2 #para3
+{
+    color:black;
+    font-family: "Cairo";
+    font-size: 30px;
+    font-weight: 600;
+    line-height:50px;
+    position: absolute;
+    width:220px;
+    left:200px;
+
+}
+.second-part-2 #para4 h4
+{
+    font-family:"Cairo";
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 30px;
+    width:450px;
+    position:absolute;
+    left:200px;
+    top:28.9cm;
+}
+.second-part-2 #para4 p
+{
+    font-family:"Cairo";
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 30px;
+    width:350px;
+    position:absolute;
+    left:200px;
+    top:30cm;
+}
+#form-elements
+{
+    
+    padding:5px;
+    position: absolute;
+    left:600px;
+    top:1000px;
+}
+#form-elements input 
+{
+    padding:15px;
+    border:1px;
+    border-radius:14px;
+    width:300px;
+    color:rgb(0, 0, 0);
+    font-family: "Cairo";
+    font-size:medium ;
+    background-color:rgb(233, 231, 231);
+}
+textarea
+{
+    border-radius:14px;
+    background-color:rgb(233, 231, 231);
+}
+textarea::placeholder
+{
+    font-family: "Cairo";
+    font-size:medium ;
+}
+#form-elements button 
+{
+    padding:15px;
+    border:1px;
+    border-radius:25px;
+    width:200px;
+    background-color: #0003AA;
+    color:white;
+    font-size: medium;
+    font-family: "Cairo";
+
+}
+.footer-layout
+{
+    position: absolute;
+    margin-bottom:200px;
+    top:1450px;
+    background:rgba(16, 6, 159, 1);
+    width:100%;
+    height:440px;
+
+}
+#footer-left-contents img
+{
+    margin-top:45px;
+    margin-left:210px;
+}
+#footer-left-contents h3 
+{
+    margin-top:50px;
+    margin-left:210px;
+    color:white;
+    font-size:25px;
+    width:250px
+}
+#footer-left-contents p 
+{
+    margin-top:20px;
+    margin-left:210px;
+    color:white;
+    font-size:18px;
+    width:290px;
+   
+}
+#footer-right-contents ul 
+{
+   list-style:none;
+   display: inline-block;
+   position: absolute;
+   left:600px;
+   line-height:1cm;
+   color:white;
+   font-size:18px;
+   width:290px;
+   top:10px;
+   
+}
+#footer-right-contents-2 ul 
+{
+    list-style:none;
+   display: inline-block;
+   position: absolute;
+   left:750px;
+   line-height:1cm;
+   color:white;
+   font-size:18px;
+   width:290px;
+   top:10px;
+}
+#footer-right-contents-3 ul 
+{
+    list-style:none;
+   display: inline-block;
+   position: absolute;
+   left:990px;
+   line-height:1cm;
+   color:white;
+   font-size:18px;
+   width:290px;
+   top:10px;
+}
+#footer-right-contents-4 ul 
+{
+    list-style:none;
+   display: inline-block;
+   position: absolute;
+   left:1150px;
+   line-height:1.6cm;
+   color:white;
+   font-size:18px;
+   width:290px;
+   top:0px;
+}
+#horizontal-line
+{
+    color:white;
+    background-color:white;
+    height:1px;
+    width:24cm;
+    position: absolute;
+    left:16cm;
+}
+#vertical-line
+{
+    color:white;
+    background-color:white;
+    height:1px;
+    top:4.5cm;
+    width:18cm;
+    position: absolute;
+    left:5cm;
+    transform: rotate(90deg);
+
+}
+#bottom-right ul
+{
+    position: absolute;
+    top:8cm;
+    display: flex;
+    width:500px;
+    list-style:none;
+}
+#bottom-right p
+{
+    position: absolute;
+    top:10cm;
+    left:16.5cm;
+    width:500px;
+    color:white;
+}
